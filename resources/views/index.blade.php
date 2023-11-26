@@ -21,13 +21,11 @@
                             <div class="container text-white text-center">
                                 <div class="row">
                                     <div class="col-md-6 offset-md-3">
-                                        <h1 class="mb-3 wow fadeInUp">The Biggest Music Event of the Year</h1>
-                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">The biggest music event
-                                            in decades. Attended by more than 100 musicians from all over the world.
-                                            Get your ticket now!</p>
+                                        <h1 class="mb-3 wow fadeInUp">Selamat datang</h1>
+                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">ini adalah tempat anda untuk memesan tiket dan melihat jadwal konser yang ada</p>
                                         <div class="spacer-10"></div>
                                         <a href="#section-artists" class="btn-main wow fadeInUp"
-                                            data-wow-delay=".6s">Explore</a>
+                                            data-wow-delay=".6s">Cari</a>
                                     </div>
                                 </div>
                             </div>
@@ -41,13 +39,11 @@
                             <div class="container text-white text-center">
                                 <div class="row">
                                     <div class="col-md-6 offset-md-3">
-                                        <h1 class="mb-3 wow fadeInUp">Be a part of musical history</h1>
-                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">The biggest music event
-                                            in decades. Attended by more than 100 musicians from all over the world.
-                                            Get your ticket now!</p>
+                                        <h1 class="mb-3 wow fadeInUp">selamat datang</h1>
+                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">ini adalah tempat anda untuk memesan tiket dan melihat jadwal konser yang ada</p>
                                         <div class="spacer-10"></div>
                                         <a href="#section-artists" class="btn-main wow fadeInUp"
-                                            data-wow-delay=".6s">Explore</a>
+                                            data-wow-delay=".6s">Cari</a>
                                     </div>
                                 </div>
                             </div>
