@@ -126,13 +126,9 @@
                     <div class="col-md-10 offset-md-1 text-center">
                         <div class="spacer-single"></div>
                         <ul class="list-inline-style-1">
-                            <li>Halestorm</li>
-                            <li>Chevelle</li>
-                            <li>Joan Jett</li>
-                            <li>In This Moment</li>
-                            <li>The Hives</li>
-                            <li>Gojira</li>
-                            <li>The Distillers</li>
+                            <li>Avenged Sevenfold</li>
+                            <li>Guns n Roses</li>
+                            <li>Linkin Park</li>
                             <li>KISS</li>
                             <li>The Struts</li>
                             <li>Refused</li>
