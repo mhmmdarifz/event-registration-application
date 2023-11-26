@@ -26,14 +26,13 @@
                 <div class="row">
 
                     <div class="col-md-8 offset-md-2">
-                        <form name="contactForm" id='contact_form' class="form-border" method="post">
+                        <form id='ticketForm' class="form-border" action="{{ url('buy-ticket') }}" method="POST">
                             <div class="g-custom-x align-items-center">
-
                                 <h4>
                                     Nama Lengkap<span class="id-color">*</span>
                                     <span id="nameError" class="text-danger"></span>
                                 </h4>
-                                <input type='text' name='Name' id='name' class="form-control"
+                                <input type='text' name='name' id='name' class="form-control"
                                     placeholder="Masukkan nama lengkap">
 
                                 <div class="clearfix"></div>
@@ -43,8 +42,8 @@
                                     <span id="phoneNumberError" class="text-danger"></span>
                                 </h4>
 
-                                <input type='text' name='Phone' id='phone' class="form-control"
-                                    placeholder="Masukkan nomor handphone">
+                                <input type='text' name='phone_number' id='phone' class="form-control"
+                                    placeholder="Masukkan nomor handphone" inputmode="tel">
 
                                 <div class="clearfix"></div>
 
@@ -52,8 +51,8 @@
                                     Email<span class="id-color">*</span>
                                     <span id="emailError" class="text-danger"></span>
                                 </h4>
-                                <input type='text' name='Email' id='email' class="form-control"
-                                    placeholder="Masukkan email">
+                                <input type='text' name='email' id='email' class="form-control"
+                                    placeholder="Masukkan email" inputmode="email">
 
                                 <div class="clearfix"></div>
 
@@ -80,7 +79,7 @@
 
                                 <div class="clearfix"></div>
 
-                                <button id="ticketForm" type="submit" class="mt20 btn btn-main btn-block">Pesan
+                                <button id="ticketSubmit" type="submit" class="mt20 btn btn-main btn-block">Pesan
                                     Tiket</button>
                             </div>
                         </form>

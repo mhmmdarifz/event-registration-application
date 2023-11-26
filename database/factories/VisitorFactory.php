@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Faker\Factory as Faker;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
@@ -16,8 +17,13 @@ class VisitorFactory extends Factory
      */
     public function definition(): array
     {
+        $faker = Faker::create('id_ID');
+
         return [
-            //
+            'name' => $faker->name(),
+            'phone_number' => $faker->phoneNumber(),
+            'email' => $faker->safeEmail(),
+            'ticket' => $faker->randomElement(['regular', 'rockstar', 'vip'], true)
         ];
     }
 }

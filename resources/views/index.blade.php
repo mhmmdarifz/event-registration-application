@@ -21,13 +21,14 @@
                             <div class="container text-white text-center">
                                 <div class="row">
                                     <div class="col-md-6 offset-md-3">
-                                        <h1 class="mb-3 wow fadeInUp">The Biggest Music Event of the Year</h1>
-                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">The biggest music event
-                                            in decades. Attended by more than 100 musicians from all over the world.
-                                            Get your ticket now!</p>
+                                        <h1 class="mb-3 wow fadeInUp">Konser Musik Rock Terbesar Tahun 2023</h1>
+                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">
+                                            Dimeriahkan oleh band-band rock kelas dunia.
+                                            Dapatkan tiketmu sekarang!
+                                        </p>
                                         <div class="spacer-10"></div>
                                         <a href="#section-artists" class="btn-main wow fadeInUp"
-                                            data-wow-delay=".6s">Explore</a>
+                                            data-wow-delay=".6s">Jelajahi</a>
                                     </div>
                                 </div>
                             </div>
@@ -41,13 +42,13 @@
                             <div class="container text-white text-center">
                                 <div class="row">
                                     <div class="col-md-6 offset-md-3">
-                                        <h1 class="mb-3 wow fadeInUp">Be a part of musical history</h1>
-                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">The biggest music event
-                                            in decades. Attended by more than 100 musicians from all over the world.
-                                            Get your ticket now!</p>
+                                        <h1 class="mb-3 wow fadeInUp">Jadilah Bagian Dalam Sejarah</h1>
+                                        <p class="lead wow fadeInUp" data-wow-delay=".3s">
+                                            Ratusan musisi ternama ikut memeriahkan sukaria. Buruan daftar!
+                                        </p>
                                         <div class="spacer-10"></div>
                                         <a href="#section-artists" class="btn-main wow fadeInUp"
-                                            data-wow-delay=".6s">Explore</a>
+                                            data-wow-delay=".6s">Jelajahi</a>
                                     </div>
                                 </div>
                             </div>
@@ -59,11 +60,11 @@
             <!-- Controls -->
             <a class="carousel-control-prev" href="#de-carousel" role="button" data-mdb-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Sebelumnya</span>
             </a>
             <a class="carousel-control-next" href="#de-carousel" role="button" data-mdb-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Selanjutnya</span>
             </a>
         </section>
         <!-- Carousel wrapper -->
@@ -72,9 +73,11 @@
                 <div class="row g-custom-x align-items-center">
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <h2 class="wow fadeInUp" data-wow-delay="0s">Aug 23-28</h2>
-                            <h3 class="wow fadeInUp" data-wow-delay=".2s"><span class="id-color">Allegiant
-                                    Stadium, Las Vegas, NV, United States</span>
+                            <h2 class="wow fadeInUp" data-wow-delay="0s">10-12 Desember 2023</h2>
+                            <h3 class="wow fadeInUp" data-wow-delay=".2s">
+                                <span class="id-color">
+                                    Pakuwon Mall, Surabaya
+                                </span>
                         </div>
                     </div>
                 </div>
@@ -97,7 +100,7 @@
                     <div class="col-md-4">
                         <div class="de-image-text s2 wow flipInY">
                             <a href="#" class="d-text">
-                                <h3>Kiss</h3>
+                                <h3>Linkin Park</h3>
                             </a>
                             <img src="{{ asset('images/misc/featured-1.jpg') }}" class="img-fluid" alt="">
                         </div>
@@ -113,7 +116,7 @@
                     <div class="col-md-4">
                         <div class="de-image-text s2 wow flipInY">
                             <a href="#" class="d-text">
-                                <h3>Pearl Jam</h3>
+                                <h3>Avenged Sevenfold</h3>
                             </a>
                             <img src="{{ asset('images/misc/featured-3.jpg') }}" class="img-fluid" alt="">
                         </div>
@@ -130,15 +133,13 @@
                             <li>The Hives</li>
                             <li>Gojira</li>
                             <li>The Distillers</li>
-                            <li>Action Bronson</li>
+                            <li>KISS</li>
                             <li>The Struts</li>
                             <li>Refused</li>
                             <li>Killswitch Engage</li>
                             <li>Parkway Drive</li>
                             <li>Beartooth</li>
                             <li>Scars on Broadway</li>
-                            <li>Architects</li>
-                            <li>Tom Morrelo</li>
                             <li>Avatar</li>
                             <li>Bad Wolves</li>
                         </ul>
@@ -164,24 +165,16 @@
                         <div class="de_tab tab_style_4 text-center">
                             <ul class="de_nav de_nav_dark">
                                 <li class="active" data-link="#section-services-tab">
-                                    <h3>Day <span>01</span></h3>
-                                    <h4>Aug 20, 2023</h4>
+                                    <h3>Hari <span>Pertama</span></h3>
+                                    <h4>10 Desember 2023</h4>
                                 </li>
                                 <li data-link="#section-services-tab">
-                                    <h3>Day <span>02</span></h3>
-                                    <h4>Aug 21, 2023</h4>
+                                    <h3>Hari <span>Kedua</span></h3>
+                                    <h4>11 Desember 2023</h4>
                                 </li>
                                 <li data-link="#section-services-tab">
-                                    <h3>Day <span>03</span></h3>
-                                    <h4>Aug 22, 2023</h4>
-                                </li>
-                                <li data-link="#section-services-tab">
-                                    <h3>Day <span>04</span></h3>
-                                    <h4>Aug 23, 2023</h4>
-                                </li>
-                                <li data-link="#section-services-tab">
-                                    <h3>Day <span>05</span></h3>
-                                    <h4>Aug 24, 2023</h4>
+                                    <h3>Hari <span>Ketiga</span></h3>
+                                    <h4>12 Desember 2023</h4>
                                 </li>
                             </ul>
                             <div class="de_tab_content text-left">
@@ -215,7 +208,7 @@
                                         <div class="col-md-12 text-center">
                                             <ul class="list-boxed-s1">
                                                 <li>
-                                                    <h3>Kiss</h3><span></span>
+                                                    <h3>Linkin Park</h3><span></span>
                                                 </li>
                                                 <li>
                                                     <h3>The Distillers</h3><span></span>
@@ -239,7 +232,7 @@
                                         <div class="col-md-12 text-center">
                                             <ul class="list-boxed-s1">
                                                 <li>
-                                                    <h3>Pearl Jam</h3><span></span>
+                                                    <h3>Avenged Sevenfold</h3><span></span>
                                                 </li>
                                                 <li>
                                                     <h3>Killswitch Engage</h3><span></span>
@@ -252,54 +245,6 @@
                                                 </li>
                                                 <li>
                                                     <h3>Parkway Drive</h3><span></span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="tab4" class="tab_single_content"
-                                    data-bgimage="url(images/background/t4.jpg) top">
-                                    <div class="row">
-                                        <div class="col-md-12 text-center">
-                                            <ul class="list-boxed-s1">
-                                                <li>
-                                                    <h3>Guns N Roses</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Beartooth</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Scars on Broadway</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Architects</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Tom Morrelo</h3><span></span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="tab5" class="tab_single_content"
-                                    data-bgimage="url(images/background/t5.jpg) top">
-                                    <div class="row">
-                                        <div class="col-md-12 text-center">
-                                            <ul class="list-boxed-s1">
-                                                <li>
-                                                    <h3>Kiss</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Pearl Jam</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Guns N Roses</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Avatar</h3><span></span>
-                                                </li>
-                                                <li>
-                                                    <h3>Bad Wolves</h3><span></span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -328,88 +273,71 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="pricing-s1 mb-sm-30 wow flipInY">
                             <div class="top text-center">
-                                <h2>One-Day</h2>
+                                <h2>Regular</h2>
                             </div>
                             <div class="mid text-center bg-color-secondary text-light">
                                 <p class="price">
-                                    <span class="currency">$</span>
-                                    <span class="m opt-1">49.89</span>
+                                    <span class="currency">Rp</span>
+                                    <span class="m opt-1">200.000</span>
                                 </p>
                             </div>
                             <div class="bottom">
                                 <ul>
-                                    <li><i class="icon_check"></i>Ticket for one day</li>
-                                    <li><i class="icon_check"></i>Chance to win doorprize</li>
-                                    <li><i class="icon_close"></i><s>Free official merchandise</s></li>
-                                    <li><i class="icon_close"></i><s>Free artist photo + signature</s></li>
-                                    <li><i class="icon_close"></i><s>Hotel Voucher</s></li>
+                                    <li><i class="icon_check"></i>Cat 5-10</li>
+                                    <li><i class="icon_close"></i><s>Merchandise Sukaria</s></li>
+                                    <li><i class="icon_close"></i><s>Foto Bareng Artis</s></li>
                                 </ul>
                             </div>
                             <div class="action text-center">
-                                <a href="01_rockfest-ticket.html" class="btn-main">Buy Ticket</a>
+                                <a href="{{ url('buy-ticket') }}" class="btn-main">Beli Tiket</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="pricing-s1 mb-sm-30 wow flipInY">
                             <div class="top text-center">
-                                <h2>Three-Days</h2>
+                                <h2>Rockstar</h2>
                             </div>
                             <div class="mid text-center bg-color-secondary text-light">
                                 <p class="price">
-                                    <span class="currency">$</span>
-                                    <span class="m opt-1">69.89</span>
+                                    <span class="currency">Rp</span>
+                                    <span class="m opt-1">400.000</span>
                                 </p>
                             </div>
                             <div class="bottom">
                                 <ul>
-                                    <li><i class="icon_check"></i>Ticket for three days</li>
-                                    <li><i class="icon_check"></i>Chance to win doorprize</li>
-                                    <li><i class="icon_check"></i>Free official merchandise</li>
-                                    <li><i class="icon_close"></i><s>Free artist photo + signature</s></li>
-                                    <li><i class="icon_close"></i><s>Hotel Voucher</s></li>
+                                    <li><i class="icon_check"></i>Cat 2-4</li>
+                                    <li><i class="icon_check"></i>Merchandise Sukaria</li>
+                                    <li><i class="icon_close"></i><s>Foto Bareng Artis</s></li>
                                 </ul>
                             </div>
                             <div class="action text-center">
-                                <a href="01_rockfest-ticket.html" class="btn-main">Buy Ticket</a>
+                                <a href="{{ url('buy-ticket') }}" class="btn-main">Beli Tiket</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="pricing-s1 mb-sm-30 wow flipInY">
                             <div class="top text-center">
-                                <h2>All-Days</h2>
+                                <h2>VIP</h2>
                             </div>
                             <div class="mid text-center bg-color-secondary text-light">
                                 <p class="price">
-                                    <span class="currency">$</span>
-                                    <span class="m opt-1">89.89</span>
+                                    <span class="currency">Rp</span>
+                                    <span class="m opt-1">800.000</span>
                                 </p>
                             </div>
                             <div class="bottom">
                                 <ul>
-                                    <li><i class="icon_check"></i>Ticket for all days</li>
-                                    <li><i class="icon_check"></i>Chance to win doorprize</li>
-                                    <li><i class="icon_check"></i>Free official merchandise</li>
-                                    <li><i class="icon_check"></i>Free artist photo + signature</li>
-                                    <li><i class="icon_check"></i>Hotel Voucher</li>
+                                    <li><i class="icon_check"></i>Cat 1</li>
+                                    <li><i class="icon_check"></i>Merchandise Sukaria</li>
+                                    <li><i class="icon_check"></i>Foto Bareng Artis</li>
                                 </ul>
                             </div>
                             <div class="action text-center">
-                                <a href="01_rockfest-ticket.html" class="btn-main">Buy Ticket</a>
+                                <a href="{{ url('buy-ticket') }}" class="btn-main">Beli Tiket</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="section-countdown" aria-label="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <div class="wm wow slideInUp">Hitung Mundur</div>
-                        <div id="defaultCountdown" class="wow fadeInUp" data-wow-delay=".2s"></div>
                     </div>
                 </div>
             </div>

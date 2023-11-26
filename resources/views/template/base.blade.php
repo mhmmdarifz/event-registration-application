@@ -90,12 +90,80 @@
                 linkUrl: "index.html",
                 buttonText: "I accept",
             });
-            console.log('test');
 
             $.ajaxSetup({
                 headers: {
                     "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
                 },
+            });
+
+            $("#ticketForm").on('submit', function(e) {
+                e.preventDefault();
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    method: $(this).attr('method'),
+                    data: new FormData(this),
+                    processData: false,
+                    dataType: "json",
+                    contentType: false,
+                    beforeSend: function() {
+                        $("#nameError").html('');
+                        $("#phoneNumberError").html('');
+                        $("#emailError").html('');
+                        $("#ticketError").html('');
+
+                        $("#ticketSubmit").html(
+                            '<div class="text-center"><div class="spinner-border spinner-border-sm text-white"></div> Mengirim...</div>'
+                        );
+                    },
+                    success: function(response) {
+                        if (response.status == 200) {
+                            Swal.fire({
+                                type: "success",
+                                text: response.message,
+                                toast: true,
+                                position: "bottom-end",
+                                showConfirmButton: false,
+                                timer: 3000,
+                            });
+
+                            location.href = '/';
+                        } else {
+                            Swal.fire({
+                                type: "error",
+                                text: response.message,
+                                toast: true,
+                                position: "bottom-end",
+                                showConfirmButton: false,
+                                timer: 3000,
+                            });
+                        }
+
+                        $("#ticketSubmit").html('Kirim');
+                    },
+                    error: function(error) {
+                        if (error.status == 422) {
+                            var responseError = error["responseJSON"]["errors"];
+                            $("#nameError").html(responseError["name"]);
+                            $("#phoneNumberError").html(responseError["phone_number"]);
+                            $("#emailError").html(responseError["email"]);
+                            $("#ticketError").html(responseError["ticket"]);
+
+                        } else {
+                            Swal.fire({
+                                type: "error",
+                                text: "Terjadi Kesalahan, cobalah untuk reload halaman",
+                                toast: true,
+                                position: "bottom-end",
+                                showConfirmButton: false,
+                                timer: 3000,
+                            });
+                        }
+
+                        $("#ticketSubmit").html('Kirim');
+                    }
+                })
             });
 
             $("#commentForm").on('submit', function(e) {

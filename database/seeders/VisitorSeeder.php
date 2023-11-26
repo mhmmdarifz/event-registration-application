@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Visitor;
 use Illuminate\Database\Seeder;
 
 class VisitorSeeder extends Seeder
@@ -12,6 +12,6 @@ class VisitorSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        Visitor::factory(5)->create();
     }
 }
