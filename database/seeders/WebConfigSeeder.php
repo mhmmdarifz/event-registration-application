@@ -14,7 +14,7 @@ class WebConfigSeeder extends Seeder
     {
         WebConfig::factory()->create([
             'name' => 'Sukaria',
-            'email' => 'baznaskab.ketapang@baznas.go.id',
+            'email' => 'admin@sukaria.online',
             'phone_number' => '62895365280807',
 
             'address' => 'Jl. Basuki Rahmat No. 103, Kecamatan Delta Pawan, Kabupaten Ketapang',

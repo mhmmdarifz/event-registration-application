@@ -14,7 +14,7 @@ class BlogController extends Controller
         $data['title'] = 'Blog';
         $data['blogs'] = Blog::paginate(6);
 
-        return view('blogs', $data);
+        return view('landing.blogs', $data);
     }
 
     function detail(Request $request)

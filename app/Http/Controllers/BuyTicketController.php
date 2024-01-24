@@ -11,7 +11,7 @@ class BuyTicketController extends Controller
     {
         $data['title'] = 'Beli Tiket';
 
-        return view('buy-ticket', $data);
+        return view('landing.buy-ticket', $data);
     }
 
     function buyTicket(Request $request)

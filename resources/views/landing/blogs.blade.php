@@ -1,4 +1,4 @@
-@extends('template.base')
+@extends('landing.template.base')
 
 @section('content')
     <div class="no-bottom no-top" id="content">

@@ -41,14 +41,14 @@
             <div class="preloader1"></div>
         </div>
         <!-- header begin -->
-        @include('template.sections.header')
+        @include('landing.template.sections.header')
         <!-- header close -->
         <!-- content begin -->
         @yield('content')
         <!-- content close -->
         <a href="#" id="back-to-top"></a>
         <!-- footer begin -->
-        @include('template.sections.footer')
+        @include('landing.template.sections.footer')
         <!-- footer close -->
     </div>
 

@@ -12,7 +12,7 @@ class LandingController extends Controller
     {
         $data['web'] = WebConfig::first();
 
-        return view('index', $data);
+        return view('landing.index', $data);
     }
 
     function addSubscriber(Request $request)

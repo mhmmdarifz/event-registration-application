@@ -8,6 +8,6 @@ class GalleryController extends Controller
     {
         $data['title'] = 'Galeri';
 
-        return view('gallery', $data);
+        return view('landing.gallery', $data);
     }
 }
