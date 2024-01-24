@@ -8,7 +8,7 @@
                             <!-- logo begin -->
                             <div id="logo">
                                 <a href="{{ url('/') }}">
-                                    <img alt="Logo Sukaria" src="{{ asset('images/logo.png') }}" />
+                                    <img alt="Logo Sukaria" src="{{ asset('assets-landing/images/logo.png') }}" />
                                 </a>
                             </div>
                             <!-- logo close -->

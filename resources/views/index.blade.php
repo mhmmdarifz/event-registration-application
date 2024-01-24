@@ -15,7 +15,7 @@
             <!-- Inner -->
             <div class="carousel-inner">
                 <!-- Single item -->
-                <div class="carousel-item active" data-bgimage="url(images/slider/1.jpg)">
+                <div class="carousel-item active" data-bgimage="url(assets-landing/images/slider/1.jpg)">
                     <div class="mask">
                         <div class="d-flex justify-content-center align-items-center h-100">
                             <div class="container text-white text-center">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <!-- Single item -->
-                <div class="carousel-item" data-bgimage="url(images/slider/2.jpg)">
+                <div class="carousel-item" data-bgimage="url(assets-landing/images/slider/2.jpg)">
                     <div class="mask">
                         <div class="d-flex justify-content-center align-items-center h-100 wow f">
                             <div class="container text-white text-center">
@@ -338,5 +338,61 @@
                 </div>
             </div>
         </section>
+
+
+        <section id="section-tickets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="wm wow slideInUp">Lokasi</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                            Lokasi Konser
+                        </h2>
+                        <div class="small-border bg-color wow zoomIn" data-wow-delay=".4s"></div>
+                    </div>
+                    <div class="spacer-single"></div>
+                </div>
+                <div class="row g-custom-x">
+                    <div class="col">
+                        <div id="map-canvas" class="rounded" style="width: 100%;height: 300px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
+
+@push('script')
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1MgLuZuyqR_OGY3ob3M52N46TDBRI_9k" async defer></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#spinner").addClass("d-none");
+            $("#content").removeClass("d-none");
+
+            initMap();
+        });
+
+        function initMap() {
+            var latitude = {{ $web->latitude }};
+            var longitude = {{ $web->longitude }};
+            myLatLng = new google.maps.LatLng(latitude, longitude);
+            createMap(myLatLng);
+        }
+
+        function createMap(myLatLng) {
+            map = new google.maps.Map(document.getElementById("map-canvas"), {
+                center: myLatLng,
+                zoom: 15,
+            });
+
+            office = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                draggable: false,
+                animation: google.maps.Animation.DROP,
+                title: "Kantor Baznas Ketapang",
+            });
+        }
+    </script>
+@endpush

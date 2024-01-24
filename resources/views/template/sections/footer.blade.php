@@ -57,7 +57,7 @@
                     <div class="de-flex">
                         <div class="de-flex-col">
                             <a href="index.html">
-                                <img alt="Logo Sukaria" class="f-logo" src="{{ asset('images/logo.png') }}" />
+                                <img alt="Logo Sukaria" class="f-logo" src="{{ asset('assets-landing/images/logo.png') }}" />
                                 <span class="copy">
                                     Sukaria &copy; 2023
                                 </span>

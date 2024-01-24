@@ -15,24 +15,24 @@
     <meta content="Muhammad Arif Mahendra" name="author" />
     <meta content="{{ csrf_token() }}" name="csrf-token">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/icon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets-landing/images/icon.png') }}">
     <!-- CSS Files
     ================================================== -->
-    <link id="bootstrap" href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-grid" href="{{ asset('css/bootstrap-grid.min.css') }}" rel="stylesheet" type="text/css" />
-    <link id="bootstrap-reboot" href="{{ asset('css/bootstrap-reboot.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/owl.transitions.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/jquery.countdown.css') }}" rel="stylesheet" type="text/css" />
-    <link id="mdb" href="{{ asset('css/mdb.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
+    <link id="bootstrap" href="{{ asset('assets-landing/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="{{ asset('assets-landing/css/bootstrap-grid.min.css') }}" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="{{ asset('assets-landing/css/bootstrap-reboot.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/animate.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/owl.theme.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/owl.transitions.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/magnific-popup.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/jquery.countdown.css') }}" rel="stylesheet" type="text/css" />
+    <link id="mdb" href="{{ asset('assets-landing/css/mdb.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/style.css') }}" rel="stylesheet" type="text/css" />
     <!-- color scheme -->
-    <link id="colors" href="{{ asset('css/colors/scheme-01.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/coloring.css') }}" rel="stylesheet" type="text/css" />
+    <link id="colors" href="{{ asset('assets-landing/css/colors/scheme-01.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets-landing/css/coloring.css') }}" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="dark-scheme">
@@ -54,29 +54,30 @@
 
     <!-- Javascript Files
     ================================================== -->
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/wow.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.isotope.min.js') }}"></script>
-    <script src="{{ asset('js/easing.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.js') }}"></script>
-    <script src="{{ asset('js/OwlCarousel2Thumbs.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('js/enquire.min.js') }}"></script>
-    <script src="{{ asset('js/sweetalert2.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.plugin.js') }}"></script>
-    <script src="{{ asset('js/jquery.countTo.js') }}"></script>
-    <script src="{{ asset('js/jquery.countdown.js') }}"></script>
-    <script src="{{ asset('js/jquery.lazy.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.lazy.plugins.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.smartsticky.min.js') }}"></script>
-    <script src="{{ asset('js/mdb.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.countdown.js') }}"></script>
-    <script src="{{ asset('js/countdown-custom.js') }}"></script>
-    <script src="{{ asset('js/cookit.js') }}"></script>
-    <script src="{{ asset('js/designesia.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.isotope.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/easing.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/owl.carousel.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/OwlCarousel2Thumbs.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/enquire.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.plugin.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.countTo.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.countdown.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.lazy.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.lazy.plugins.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.smartsticky.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/mdb.min.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/jquery.countdown.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/countdown-custom.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/cookit.js') }}"></script>
+    <script src="{{ asset('assets-landing/js/designesia.js') }}"></script>
 
+    @stack('script')
     <!-- COOKIES PLUGIN  -->
     <script>
         $(document).ready(function() {

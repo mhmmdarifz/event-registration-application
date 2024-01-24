@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Models\Subscriber;
+use App\Models\WebConfig;
 use Illuminate\Http\Request;
 
 class LandingController extends Controller
 {
     function index()
     {
-        return view('index');
+        $data['web'] = WebConfig::first();
+
+        return view('index', $data);
     }
 
     function addSubscriber(Request $request)
