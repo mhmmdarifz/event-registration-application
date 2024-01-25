@@ -89,7 +89,7 @@ class AuthController extends Controller
                     $response = Http::asForm()->post('https://app.ruangwa.id/api/send_message', [
                         'token' => WebConfig::first()->whatsapp_gateway_token,
                         'number' => $request->phone_number,
-                        'message' => $otp . " adalah kode OTP anda untuk mengatur ulang kata sandi. Jangan berikan kode ini kepada siapapun. \n\n*Website Pondok Sablon*",
+                        'message' => $otp . " adalah kode OTP anda untuk mengatur ulang kata sandi. Jangan berikan kode ini kepada siapapun. \n\n*TTD Admin Sukaria*",
                     ]);
 
                     return response()->json([

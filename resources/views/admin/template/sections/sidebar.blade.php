@@ -24,16 +24,9 @@
                 <li class="menu-title">Master Data</li>
 
                 <li>
-                    <a href="{{ url('orders') }}" class=" waves-effect">
+                    <a href="{{ url('artists') }}" class=" waves-effect">
                         <i class="fa fa-shopping-bag"></i>
-                        <span>Data Pesanan</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="{{ url('services') }}" class=" waves-effect">
-                        <i class="fab fa-servicestack"></i>
-                        <span>Data Layanan</span>
+                        <span>Data Artis</span>
                     </a>
                 </li>
 
@@ -45,16 +38,9 @@
                 </li>
 
                 <li>
-                    <a href="{{ url('testimonies') }}" class=" waves-effect">
+                    <a href="{{ url('galeries') }}" class=" waves-effect">
                         <i class="mdi mdi-comment-account"></i>
-                        <span>Data Testimoni</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="{{ url('users') }}" class=" waves-effect">
-                        <i class="feather feather-users"></i>
-                        <span>Data Pengguna</span>
+                        <span>Galeri</span>
                     </a>
                 </li>
 
@@ -73,21 +59,7 @@
                 <li>
                     <a href="{{ url('service-categories') }}" class=" waves-effect">
                         <i class="mdi mdi-book-variant"></i>
-                        <span>Kategori Layanan</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="{{ url('blog-categories') }}" class=" waves-effect">
-                        <i class="mdi mdi-equal-box"></i>
-                        <span>Kategori Blog</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="{{ url('information') }}" class=" waves-effect">
-                        <i class="mdi mdi-office-building"></i>
-                        <span>Informasi</span>
+                        <span>Lokasi Konser</span>
                     </a>
                 </li>
             </ul>

@@ -14,7 +14,7 @@ class AdminSeeder extends Seeder
     {
         Admin::factory()->create([
             'name' => 'Muhammad Arif Mahendra',
-            'email' => 'arif@gmail.com',
+            'email' => 'arifmahendra@gmail.com',
             'phone_number' => '0895365280807',
             'password' => bcrypt('12341234'),
             'level' => 'super-admin',

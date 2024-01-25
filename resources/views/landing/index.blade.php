@@ -367,9 +367,6 @@
 
     <script>
         $(document).ready(function() {
-            $("#spinner").addClass("d-none");
-            $("#content").removeClass("d-none");
-
             initMap();
         });
 
@@ -391,7 +388,7 @@
                 map: map,
                 draggable: false,
                 animation: google.maps.Animation.DROP,
-                title: "Kantor Baznas Ketapang",
+                title: "Lokasi Konser Sukaria",
             });
         }
     </script>
